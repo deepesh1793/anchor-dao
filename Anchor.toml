@@ -4,14 +4,14 @@
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-dao_voting = "Ej1cno7wk5Rz6rDfZM8u4e6j431U1NFaW2mw6nQ6a2M2"
+[programs.devnet]
+dao_voting = "DrJcZH3mctarr6KXHyuEPcQWPSLWvzRtf86GRDTdAmiR"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
